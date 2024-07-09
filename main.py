@@ -1,4 +1,6 @@
 import logging
+
+from sklearn.model_selection import train_test_split
 from src.data_ingestion import load_data
 from src.data_preprocessing import preprocess_data
 from src.feature_engineering import merge_data, feature_selection, label_encode, scale_features
